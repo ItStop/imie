@@ -136,7 +136,7 @@ textarea.input {
 	Nav Header
 \*----------------------------*/
 #header #nav-header {
-	background: #07090c;
+	background: #2D2D2E;
 }
 
 #nav-header .nav-logo {
@@ -169,11 +169,12 @@ textarea.input {
 	border-right:1px solid #222;
 }
 
-.main-nav li a {
+.main-nav li a { /* TEXT DU BOUTON */
 	padding: 25px 15px;
-	color: #FFF;
+	color: rgb(255, 255, 255);
 	text-transform: uppercase;  
-	width: 150px;
+	text-align: center;
+	width: 170px;
 }
 
 .main-nav li.active a {
@@ -181,7 +182,7 @@ textarea.input {
 }
 
 .main-nav li a:hover, .main-nav li a:focus {
-	background-color:#222;
+	background-color:#3d3c3c;
 }
 
 .button-nav {
@@ -194,7 +195,7 @@ textarea.input {
 	border: none;
 	line-height: 20px;
 	background: transparent;
-	color: #FFF;
+	color: rgb(255, 255, 255);
 }
 
 .button-nav .search-collapse-btn.active {
@@ -204,8 +205,8 @@ textarea.input {
 .search-form {
 	position: absolute;
 	width: 250px;
-	background: #07090c;
-	padding: 20px;
+	background: #2D2D2E;
+	padding: 15px;
 	right: 0;
 	border-top: 2px solid #EF233C;
 	-webkit-box-shadow: 0px 5px 6px -5px rgba(0, 0, 0, 0.4);
@@ -228,7 +229,7 @@ textarea.input {
 .search-form.search-collapse {
 	-webkit-transform:translateY(0px);
 	    -ms-transform:translateY(0px);
-	        transform:translateY(0px);
+			transform:translateY(0px);
 	opacity:1;
 	visibility:visible;
 }
@@ -236,7 +237,6 @@ textarea.input {
 .button-nav .nav-collapse-btn {
 	display:none;
 }
-
 /*----------------------------*\
 	Responsive Header
 \*----------------------------*/
