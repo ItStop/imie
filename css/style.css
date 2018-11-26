@@ -172,7 +172,8 @@ textarea.input {
 .main-nav li a {
 	padding: 25px 15px;
 	color: #FFF;
-	text-transform: uppercase;
+	text-transform: uppercase;  
+	width: 150px;
 }
 
 .main-nav li.active a {
