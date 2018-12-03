@@ -117,20 +117,6 @@ textarea.input {
 	HEADER
 ===========================================================*/
 
-/*----------------------------*\
-	Zone relative au logo
-\*----------------------------*/
-
-.header {
-    background-color: #2D2D2E;
-    width: 100%;
-    height: 45px;
-    margin: 0%;
-}
-
-#logo-imie {
-    height: 100%;
-}
 
 /*----------------------------*\
 	Nav Header
@@ -139,18 +125,11 @@ textarea.input {
 	background: #2D2D2E;
 }
 
-#nav-header .nav-logo {
-	display:none;
+#logo {
+	width:100px;
 	float:left;
-}
-
-#nav-header .nav-logo .logo {
-	display:inline-block;
-}
-
-#nav-header .nav-logo .logo > img {
-	width: 100%;
-	max-height: 90px;
+	position: absolute;
+	z-index: 5;
 }
 
 #nav-header.fixed {
@@ -170,11 +149,11 @@ textarea.input {
 }
 
 .main-nav li a { /* TEXT DU BOUTON */
-	padding: 25px 15px;
+	padding: 15px 25px;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;  
 	text-align: center;
-	width: 170px;
+	width: 120px;
 }
 
 .main-nav li.active a {
@@ -191,7 +170,7 @@ textarea.input {
 }
 
 .button-nav > button {
-	padding: 25px 25px;
+	padding: 15px 15px;
 	border: none;
 	line-height: 20px;
 	background: transparent;
