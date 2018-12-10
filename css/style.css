@@ -723,11 +723,15 @@ textarea.input {
 .social-widget ul li a.facebook {
 	color:#FFF !important;
 	background-color:#3b5999;
+	width: 100%;
+	display: block;
 }
 
 .social-widget ul li a.twitter {
 	color:#FFF !important;
 	background-color:#00aced;
+	width: 120%; 
+	display: block;
 }
 
 .social-widget ul li a.google {
