@@ -126,7 +126,7 @@ textarea.input {
 #header #nav-header {
 	background: #2D2D2E;
 	height: 50px;
-	z-index: 2;
+	z-index: 999999999999999999;
 	position: fixed;
 	width: 100%;
 	top:0;
