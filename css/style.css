@@ -434,6 +434,8 @@ textarea.input {
 	z-index: 5;
 }
 
+
+
 /*=========================================================
 	ARTICLE
 ===========================================================*/
@@ -761,6 +763,7 @@ textarea.input {
 }
 
 .social-widget ul li a.facebook {
+<<<<<<< HEAD
 	color: #FFF !important;
 	background-color: #3b5999;
 }
@@ -768,6 +771,19 @@ textarea.input {
 .social-widget ul li a.twitter {
 	color: #FFF !important;
 	background-color: #00aced;
+=======
+	color:#FFF !important;
+	background-color:#3b5999;
+	width: 100%;
+	display: block;
+}
+
+.social-widget ul li a.twitter {
+	color:#FFF !important;
+	background-color:#00aced;
+	width: 120%; 
+	display: block;
+>>>>>>> 369d8e958ba4bdb74c64ef1f75d62e235ff7afd7
 }
 
 .social-widget ul li a.google {
