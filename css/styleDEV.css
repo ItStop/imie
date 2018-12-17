@@ -488,6 +488,7 @@ textarea.input {
 	font-size: 12.5px;
 }
 
+/*
 .article .article-info .article-category > a {
 	display:block;
 	padding: 0px 15px;
@@ -502,7 +503,7 @@ textarea.input {
 .article .article-info .article-category > a:hover {
 	opacity:0.8;
 }
-
+*/
 .article .article-title {
 	text-transform: uppercase;
 	margin-top:0px;
@@ -532,6 +533,7 @@ textarea.input {
 /*------------------------------------*\
 	Thumb Article
 \*------------------------------------*/
+/*
 .article.thumb-article {
 	margin-bottom:0px;
 }
@@ -574,10 +576,12 @@ textarea.input {
 .article.thumb-article .article-body .article-title > a:hover {
 	color: #DDD;
 }
+*/
 
 /*------------------------------------*\
 	Widget Article
 \*------------------------------------*/
+/*
 .article.widget-article:after {
 	content:"";
 	display:block;
@@ -594,10 +598,12 @@ textarea.input {
 .article.widget-article .article-title {
 	font-size:15px;
 }
+*/
 
 /*------------------------------------*\
 	Row Article
 \*------------------------------------*/
+/*
 .article.row-article:after {
 	content:"";
 	display:block;
@@ -627,7 +633,7 @@ textarea.input {
 		margin-bottom:15px;
 	}
 }
-
+*/
 /*-- article pagination --*/
 .article-pagination {
 	margin-top:30px;
@@ -659,6 +665,7 @@ textarea.input {
 /*=========================================================
 	WIDGET
 ===========================================================*/
+/*
 .widget + .widget {
 	margin-top:30px;
 }
@@ -674,10 +681,11 @@ textarea.input {
 	color:#DDD;
 	margin-top:0px;
 }
-
+*/
 /*------------------------------------*\
-	Social Widget
+	Social Widget (ne pas toucher)
 \*------------------------------------*/
+
 .social-widget ul li {
 	display:inline-block;
 }
@@ -692,7 +700,7 @@ textarea.input {
 
 .widget.social-widget ul li {
 	width: 33.33%;
-	padding: 3px;
+	padding: 2px;
 	margin-right:-4px;
 }
 
@@ -733,7 +741,7 @@ textarea.input {
 /*------------------------------------*\
 	Subscribe Widget
 \*------------------------------------*/
-.widget.subscribe-widget {
+/*.widget.subscribe-widget {
 	padding:30px;
 	background-color:#222;
 }
@@ -755,10 +763,11 @@ textarea.input {
 .footer-widget.subscribe-widget form input.input {
 	color:#DDD;
 }
-
+*/
 /*------------------------------------*\
-	Galery Widget
+	Galery Widget (FLICKR PHOTOS)
 \*------------------------------------*/
+
 .galery-widget ul li {
 	display:inline-block;
 	width: 25%;
@@ -828,6 +837,7 @@ textarea.input {
 /*------------------------------------*\
 	Tweets Widget
 \*------------------------------------*/
+/*
 .tweets-widget .tweet + .tweet {
 	margin-top:30px;
 }
@@ -851,10 +861,11 @@ textarea.input {
 .tweets-widget .tweet .tweet-body a {
 	text-decoration:underline;
 }
-
+*/
 /*------------------------------------*\
 	tags Widget
 \*------------------------------------*/
+/*
 .widget-tags ul li {
 	display:inline-block;
 	margin-top:3px;
@@ -872,7 +883,7 @@ textarea.input {
 	color:#EF233C;
 	border-color:#EF233C;
 }
-
+*/
 /*=========================================================
 	ARTICLE POST
 ===========================================================*/
@@ -907,6 +918,7 @@ textarea.input {
 /*------------------------------------*\
 	Article Share
 \*------------------------------------*/
+/*
 .article-share {
 	position:absolute;
 	left:-45px;
@@ -943,10 +955,11 @@ textarea.input {
 .article-share > a:hover {
 	opacity:0.8;
 }
-
+*/
 /*------------------------------------*\
 	Article Comments
 \*------------------------------------*/
+/*
 .article-comments {
 	margin-top:30px;
 	margin-bottom:30px;
@@ -1001,10 +1014,11 @@ textarea.input {
 	font-size:12.5px;
 	text-transform:uppercase;
 }
-
+*/
 /*------------------------------------*\
 	Reply Form
 \*------------------------------------*/
+/*
 .article-reply-form {
 	margin-top:30px;
 	margin-bottom:30px;
@@ -1026,7 +1040,7 @@ textarea.input {
 .article-reply-form form button.input-btn {
 	margin-top:15px;
 }
-
+*/
 /*=========================================================
 	FOOTER
 ===========================================================*/
@@ -1105,6 +1119,7 @@ textarea.input {
 /*------------------------------------*\
 	Owl Custom nav
 \*------------------------------------*/
+/*
 .custom-owl-nav > div {
 	position:relative;
 	height: 45px;
@@ -1133,10 +1148,11 @@ textarea.input {
 .custom-owl-nav .owl-prev{
 	border-right:none;
 }
-
+*/
 /*------------------------------------*\
 	Owl Center nav
 \*------------------------------------*/
+/*
 .owl-theme.center-owl-nav .owl-nav [class*='owl-'] {
     position: absolute;
     top: 50%;
@@ -1166,10 +1182,11 @@ textarea.input {
     opacity: 0.8;
     background: #EF233C;
 }
-
+*/
 /*------------------------------------*\
 	Owl Dots
 \*------------------------------------*/
+/*
 .owl-theme .owl-dots .owl-dot span {
     border: none;
     background: #DDD;
@@ -1181,7 +1198,7 @@ textarea.input {
 .owl-theme .owl-dots .owl-dot.active span {
 	background: #EF233C;
 }
-
+*/
 /*=========================================================
 	RESPONSIVE
 ===========================================================*/
