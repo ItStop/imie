@@ -344,7 +344,7 @@ textarea.input {
 }
 
 .section-title .title:after {
-	content: "";
+	content: "";oè_è
 	position: absolute;
 	right: -15px;
 	bottom: 0;
@@ -603,7 +603,8 @@ textarea.input {
 /*------------------------------------*\
 	Row Article
 \*------------------------------------*/
-/*
+
+
 .article.row-article:after {
 	content:"";
 	display:block;
@@ -633,8 +634,9 @@ textarea.input {
 		margin-bottom:15px;
 	}
 }
-*/
+
 /*-- article pagination --*/
+/*
 .article-pagination {
 	margin-top:30px;
 	margin-bottom:30px;
@@ -661,7 +663,7 @@ textarea.input {
 	border-color:#EF233C;
 	color:#FFF;
 }
-
+*/
 /*=========================================================
 	WIDGET
 ===========================================================*/
